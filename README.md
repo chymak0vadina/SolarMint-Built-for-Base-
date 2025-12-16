@@ -150,17 +150,14 @@ SOFTWARE.
 
 ## Author
 
-GitHub: https://github.com/your-handle
-Public contact (email): your-name@proton.me
-Public contact (X): https://x.com/your-handle
+GitHub: https://github.com/chymak0vadina
+Public contact (email): 02-albums.deer@icloud.com
+Public contact (X): https://x.com/chymakovadina2
 
 ## References
 
 Base Account SDK reference (createBaseAccount):
 https://docs.base.org/base-account/reference/core/createBaseAccount?utm_source=chatgpt.com
-
-Account Abstraction on Base:
-https://docs.base.org/base-chain/tools/account-abstraction?utm_source=chatgpt.com
 
 OnchainKit Wallet documentation:
 https://docs.base.org/onchainkit/wallet/wallet
@@ -168,11 +165,15 @@ https://docs.base.org/onchainkit/wallet/wallet
 ## Testnet Deployment (Base Sepolia)
 
 A smart contract has been deployed to the Base Sepolia test network for validation and testing purposes.
-Network: Base Sepolia
-chainId (decimal): 84532
-Explorer: https://sepolia.basescan.org
-Deployed contract address: 0xYOUR_CONTRACT_ADDRESS
-Basescan deployment and verification links:
-Contract address: https://sepolia.basescan.org/address/0xYOUR_CONTRACT_ADDRESS
-Contract verification (source code): https://sepolia.basescan.org/0xYOUR_CONTRACT_ADDRESS/0#code
-This deployment is used to validate Base-compatible tooling, account abstraction flows, and onchain read operations in a test environment prior to mainnet usage.
+
+- Network: Base Sepolia
+- chainId (decimal): 84532
+- Explorer: https://sepolia.basescan.org
+- Deployed contract "imports" address: 0x4d895dfe4bb6353152ade1f718a24539a20ace03
+- Deployed contract "errors" address: 0x441b5ec7fd331674407c4331c2ed6a6de38dd32a
+- Basescan deployment and verification links:
+- Contract "imports" address: https://sepolia.basescan.org/address/0x4d895dfe4bb6353152ade1f718a24539a20ace03
+- Contract "errors" address: https://sepolia.basescan.org/address/0x441b5ec7fd331674407c4331c2ed6a6de38dd32a
+- Contract "imports" verification (source code): https://sepolia.basescan.org/0x4d895dfe4bb6353152ade1f718a24539a20ace03/0#code
+- Contract "errors" verification (source code): https://sepolia.basescan.org/0x441b5ec7fd331674407c4331c2ed6a6de38dd32a/0#code
+- This deployment is used to validate Base-compatible tooling, account abstraction flows, and onchain read operations in a test environment prior to mainnet usage.
