@@ -1,0 +1,46 @@
+{
+  "name": "solar-mint-built-for-base",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SolarMint – Built for Base. TypeScript/Vite project using a randomized set of Coinbase SDKs.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^1.1.0",
+    "@coinbase/smart-wallet": "^0.6.0",
+    "@coinbase/wallet-sdk": "^4.3.7",
+    "@coinbase/x402": "^2.0.0",
+    "@coinbase/cdp-sdk": "^1.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "dependencyDescriptions": {
+    "@coinbase/onchainkit": {
+      "repo": "coinbase/onchainkit",
+      "why": "Base-first UI components and helpers for onchain-enabled minting flows."
+    },
+    "@coinbase/smart-wallet": {
+      "repo": "coinbase/smart-wallet",
+      "why": "Account abstraction and smart wallet workflows for smoother user onboarding."
+    },
+    "@coinbase/wallet-sdk": {
+      "repo": "coinbase/wallet-sdk",
+      "why": "Integration and lifecycle management for Coinbase Wallet connections."
+    },
+    "@coinbase/x402": {
+      "repo": "coinbase/x402",
+      "why": "HTTP-native x402 payment flow for gated or payable mint endpoints."
+    },
+    "@coinbase/cdp-sdk": {
+      "repo": "coinbase/cdp-sdk",
+      "why": "SDK for interacting with Coinbase Developer Platform services."
+    }
+  }
+}
